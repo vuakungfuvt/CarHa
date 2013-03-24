@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "Car.h"
+#import "Engine.h"
+@interface ViewController : UIViewController {
+    Car *car;
+    Engine *engine;
+}
 
 @end

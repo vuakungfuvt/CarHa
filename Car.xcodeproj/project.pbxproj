@@ -18,6 +18,9 @@
 		0A09DA7E16FEF86D00FF9C66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DA7D16FEF86D00FF9C66 /* Default-568h@2x.png */; };
 		0A09DA8116FEF86D00FF9C66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DA8016FEF86D00FF9C66 /* ViewController.m */; };
 		0A09DA8416FEF86D00FF9C66 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DA8216FEF86D00FF9C66 /* ViewController.xib */; };
+		0A09DA8D16FEF88E00FF9C66 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DA8C16FEF88E00FF9C66 /* Car.m */; };
+		0A09DA9016FEF8A500FF9C66 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DA8F16FEF8A500FF9C66 /* Engine.m */; };
+		0A09DA9316FEF8BD00FF9C66 /* Tank.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DA9216FEF8BD00FF9C66 /* Tank.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,12 @@
 		0A09DA7F16FEF86D00FF9C66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0A09DA8016FEF86D00FF9C66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A09DA8316FEF86D00FF9C66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0A09DA8B16FEF88E00FF9C66 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		0A09DA8C16FEF88E00FF9C66 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		0A09DA8E16FEF8A500FF9C66 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		0A09DA8F16FEF8A500FF9C66 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		0A09DA9116FEF8BD00FF9C66 /* Tank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tank.h; sourceTree = "<group>"; };
+		0A09DA9216FEF8BD00FF9C66 /* Tank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tank.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,7 @@
 		0A09DA6D16FEF86D00FF9C66 /* Car */ = {
 			isa = PBXGroup;
 			children = (
+				0A09DA8A16FEF87600FF9C66 /* Classes */,
 				0A09DA7616FEF86D00FF9C66 /* AppDelegate.h */,
 				0A09DA7716FEF86D00FF9C66 /* AppDelegate.m */,
 				0A09DA7F16FEF86D00FF9C66 /* ViewController.h */,
@@ -105,6 +115,19 @@
 				0A09DA7D16FEF86D00FF9C66 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A09DA8A16FEF87600FF9C66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A09DA8B16FEF88E00FF9C66 /* Car.h */,
+				0A09DA8C16FEF88E00FF9C66 /* Car.m */,
+				0A09DA8E16FEF8A500FF9C66 /* Engine.h */,
+				0A09DA8F16FEF8A500FF9C66 /* Engine.m */,
+				0A09DA9116FEF8BD00FF9C66 /* Tank.h */,
+				0A09DA9216FEF8BD00FF9C66 /* Tank.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +199,9 @@
 				0A09DA7416FEF86D00FF9C66 /* main.m in Sources */,
 				0A09DA7816FEF86D00FF9C66 /* AppDelegate.m in Sources */,
 				0A09DA8116FEF86D00FF9C66 /* ViewController.m in Sources */,
+				0A09DA8D16FEF88E00FF9C66 /* Car.m in Sources */,
+				0A09DA9016FEF8A500FF9C66 /* Engine.m in Sources */,
+				0A09DA9316FEF8BD00FF9C66 /* Tank.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
